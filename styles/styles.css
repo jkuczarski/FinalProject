@@ -97,10 +97,23 @@ body {
   margin-right: 100px;
   margin-bottom: 95px;
 }
+
+
+#aboutpicture {
+  float: right;
+  width: 40%;
+  margin-top: 80px;
+  margin-right: 100px;
+  margin-bottom: 95px;
+}
+
+#aboutpage {
+  float: left;
+  width: 40%;
+  margin-bottom: 30px;
+}
 footer {
   clear: left;
   text-align: center;
 }
-
-
 
