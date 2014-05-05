@@ -1,10 +1,23 @@
+/* sytyles for headings */
 
+h1 { 
+   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+   font-size: 58px;
+   color: #fff;
+}
 
+h3 {
+  font: 25px bold Arial, sans-serif;
+}
 
+footer {
+  font-size: ;:5px;
+}
 
 /* styles for body */
 body {
-  
+   background: linear-gradient(to bottom, green 5%, white 45%);
+   font-family: Arial, sans-serif;
 }
 
 /* styles for navigation */
@@ -48,26 +61,11 @@ body {
   border-color: black;  
 }
 #nav ul a:active { 
-  color:#F00;
+  color:green;
 }
 
-#h1 {
-  font: braggadocio;
-}
 
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 35px;
-    height: 0;
-    overflow: hidden;
-}
 
-.video-container iframe {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+
+
 
