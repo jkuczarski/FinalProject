@@ -1,18 +1,29 @@
+
+
 /* sytyles for headings */
+
 
 h1 { 
    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
    font-size: 58px;
    color: #fff;
 }
+h2 {
+  font: 25px bold Arial, sans-serif;
+}
 
 h3 {
   font: 25px bold Arial, sans-serif;
 }
 
-footer {
-  font-size: ;:5px;
+h5 {
+  font: 25px bold Arial, sans-serif;
 }
+
+footer p {
+  font-size: 10px;
+}
+
 
 /* styles for body */
 body {
@@ -46,7 +57,7 @@ body {
 #nav ul li a {
   color: #008000;
   display: block;
-  padding: .5em;
+  padding: .8em;
   border: 2px solid;
   border-radius: .75em;
   margin: .25em;
@@ -64,8 +75,32 @@ body {
   color:green;
 }
 
+/*styles for layout */
 
+#wrapper {
+  width: 960px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 23.5%;
+  margin-right: 20%;
+}
 
+#news {
+  float: left;
+  width: 40%;
+  margin-bottom: 30px;
+}
+#vid {
+  float: right;
+  width: 45%;
+  margin-top: 55px;
+  margin-right: 100px;
+  margin-bottom: 95px;
+}
+footer {
+  clear: left;
+  text-align: center;
+}
 
 
 
